@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.egg
+.env
+.venv/
+venv/
+*.log
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.tar
+docker-compose.override.yml
+*.env.*     # optional if you use multiple env files
+**/docker-compose.override.yml
+
+# Kubernetes
+*.yaml~
+*.kubeconfig
+
+# Frontend
+node_modules/
+dist/
+*.js.map
+
+# Testing
+.coverage
+htmlcov/
+pytest_cache/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp
